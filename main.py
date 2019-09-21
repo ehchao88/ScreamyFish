@@ -1,12 +1,15 @@
 from flask import Flask, render_template
 from scripts.vision_labels import get_labels
+from scripts.image_search import get_image_url
 
 app = Flask(__name__)
 
 @app.route("/")
 def hello():
-	image_url = 'https://www.miamiherald.com/latest-news/45pxfx/picture229650079/alternates/LANDSCAPE_1140/toadfish.jpg'
+	image_url = get_image_url('George_W_Bush')
+	print(image_url)
 	labels = get_labels(image_url)
+	print(labels)
 	return render_template('list_labels.html', image_url=image_url, labels=labels)
 
 @app.route("/select_lang")
