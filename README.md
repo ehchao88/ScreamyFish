@@ -1,9 +1,9 @@
 # ScreamyFish
-## What it does:
--Using Google's Cloud technologies to play a foreign language vocabulary game,
+##  What it does:
+- Using Google's Cloud technologies to play a foreign language vocabulary game,
 comparing your description of pictures with AI's.
 
-##It's built with:
+## It's built with:
 - Python
 - Flask
 - Google Cloud Translate API
@@ -14,7 +14,7 @@ comparing your description of pictures with AI's.
 - HTML/CSS/Bootstrap
 - Javascript
 
-##Our Inspiration:
+## Our Inspiration:
 We wanted to leverage modern technologies to create a simple and fun way to aid
 in learning a new language. We found the Google Cloud Suite to be an efficient
 way to incorporate such technologies into our final game. Using Google's highly
@@ -24,7 +24,7 @@ time consuming aspects of machine learning, being designing and training a model
 for these exciting innovations in the tech world, and Screamy Fish is just one
 small example of a unique usage of them.
 
-#Contributors:
+# Contributors:
 - Eric Chao
 - Erin Chung
 - Amy Feng
