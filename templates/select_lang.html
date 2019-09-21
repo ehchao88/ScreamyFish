@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+	<title>Select Screamy Fish Language</title>
+</head>
+<body>
+	<div class="main select">		
+		<h1 id="title">
+			Choose the language you want to learn:
+		</h1>
+		<form method="post">
+			<select name="language" class="language-selection">
+				<option value="de">
+					German
+				</option>
+				<option value="es">
+					Spanish
+				</option>
+				<option value="fr">
+					French
+				</option>
+				<option value="pt">
+					Portuguese
+				</option>
+				<option value="vi">
+					Vietnamese
+				</option>
+			</select>
+			<br>
+			<br>
+			<input type="submit" value="Play">
+		</form>
+	</div>
+</body>
+</html>

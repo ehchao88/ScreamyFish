@@ -1,0 +1,78 @@
+.main
+{
+	font-size: 200%;
+	font-family: Georgia;
+	text-align: center;
+}
+
+.homepage
+{	
+	margin-top: 1%;
+	margin-left: 2%;
+	margin-right: 2%;
+	padding-bottom: 3%;
+	padding-top: 2px;
+	background-color: #3aafa9;
+	color: #17252a;
+	border-radius: 20px;
+}
+
+#screaming-fish
+{
+	height: 200px;
+	border-radius: 40%;
+}
+
+#play-button
+{
+	font-size: 80%;
+	font-weight: bold;
+	border-style: solid;
+	border-color:#17252a;
+	border-radius: 10%;
+	padding: 1%;
+	background-color: white;
+	color: #17252a;
+	text-decoration: none;
+}
+
+.select
+{
+	text-align: center;
+	padding-top: 1%;
+	padding-bottom: 3%;
+	padding-left: 25%;
+	padding-right: 25%;
+}
+
+.language-selection
+{
+	text-align: center;
+	padding: 5%;
+	margin-top: 4%;
+	border-style: solid;
+	border-color: #3aafa9;
+	color: #17252a;
+	border-radius: 40px;
+	font-weight: 350;
+	font-size: 20px;
+}
+
+#play
+{
+	text-align: center;
+	font-size: 40px;
+}
+
+#trial-image
+{
+	height: 300px;
+	padding-top: 1%;
+}
+
+#image-description
+{
+	text-align: middle;
+	width: 250px;
+	height: 30px;
+}
