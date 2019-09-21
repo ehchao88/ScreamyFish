@@ -33,7 +33,7 @@ def game(language):
 	labels = get_labels(image_url)
 	trans_labels = translate_list(language, labels)
 	print(labels)
-	return render_template('list_labels.html', image_url=image_url, labels=trans_labels)
+	return render_template('play.html', image_url=image_url, labels=trans_labels)
 
 if __name__ == "__main__":
 	app.run()
